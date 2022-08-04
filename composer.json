@@ -1,0 +1,33 @@
+{
+    "name": "esjdev/ci4-viacep",
+    "description": "module viacep to codeigniter 4",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ci4",
+        "codeigniter4",
+        "codeigniter",
+        "viacep"
+    ],
+    "authors": [
+        {
+            "name": "ESJDev",
+            "homepage": "https://github.com/esjdev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EsjDev\\ViaCep\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/esjdev"
+    }
+}
