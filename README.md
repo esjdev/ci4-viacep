@@ -14,7 +14,7 @@ composer require esjdev/ci4-viacep
 
 Utilize o service searchCep e searchAddress como no exemplo abaixo.
 
-```
+~~~php
 <?php
 
 namespace App\Controllers;
@@ -34,11 +34,11 @@ class Home extends BaseController
         return view('home', $data);
     }
 }
-```
+~~~
 ## View
 
 #### Busca por CEP específico
-```
+~~~php
 CEP: <?= $searchCep['cep'] ?>
 Logradouro: <?= $searchCep['logradouro'] ?>
 Complemento: <?= $searchCep['complemento'] ?>
@@ -49,10 +49,10 @@ IBGE: <?= $searchCep['ibge'] ?>
 GIA: <?= $searchCep['gia'] ?>
 DDD: <?= $searchCep['ddd'] ?>
 SIAFI: <?= $searchCep['siafi'] ?>
-```
+~~~
 
 #### Busca por endereços
-```
+~~~php
 <?php foreach ($searchAddress as $value): ?>
 
 CEP: <?= $value['cep'] ?>
@@ -67,7 +67,7 @@ DDD: <?= $value['ddd'] ?>
 SIAFI: <?= $value['siafi'] ?>
 
 <?php endforeach; ?>
-```
+~~~
 
 ### Logs de erros
 ```
