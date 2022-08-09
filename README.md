@@ -73,7 +73,7 @@ SIAFI: <?= $value['siafi'] ?>
 ```
 Erros ficam salvos em /writable/logs
 ```
-###### O diretório dos logs fica na raiz do CodeIgniter 4, e não do modulo.
+###### O diretório dos logs ficam na raiz do CodeIgniter 4, e não do modulo.
 
 ## Author
 
